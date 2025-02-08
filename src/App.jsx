@@ -21,20 +21,26 @@ export default function App() {
       <button>Tambah</button>
     </form>
     <div className="list">
+      
       <ul>
         <li>
           <input type="checkbox" checked={true} />
-          <span style={{textDecoration: "line-through"}}>1 Kopi</span>
+          <span style={{textDecoration: "line-through"}}>10 Kopi Kapal Api</span>
           <button>&times;</button>
         </li>
         <li>
           <input type="checkbox" checked={true} />
-          <span style={{textDecoration: "line-through"}}>5 Gula Pasir</span>
+          <span style={{textDecoration: "line-through"}}>1 kg Gula Pasir</span>
           <button>&times;</button>
         </li>
         <li>
           <input type="checkbox" />
-          <span>2 Air Mineral</span>
+          <span>1 liter Air Mineral</span>
+          <button>&times;</button>
+        </li>
+        <li>
+          <input type="checkbox" />
+          <span>500 gram Garam</span>
           <button>&times;</button>
         </li>
       </ul>

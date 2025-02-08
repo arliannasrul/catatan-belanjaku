@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Comfortaa:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300;500;700&display=swap');
 
 * {
   margin: 0;
@@ -26,7 +27,7 @@ body {
 }
 
 h1 {
-  font-family: 'Borel';
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   background-color: #283618;
   color: white;
@@ -76,9 +77,9 @@ button {
 }
 
 .list {
-  background-image: url(img/paper-bg.jpg);
+  background-image: url('/img/paper-bg.jpg');
   background-repeat: repeat-y;
-  background-size: 155%;
+  background-size: 90%;
   /* background-attachment: local; */
   color: #fefae0;
   padding: 2.3rem 0 0;
