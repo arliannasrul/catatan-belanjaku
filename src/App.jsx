@@ -34,7 +34,7 @@ export default function App() {
         </li>
         <li>
           <input type="checkbox" />
-          <span>3 Air Mineral</span>
+          <span>2 Air Mineral</span>
           <button>&times;</button>
         </li>
       </ul>
