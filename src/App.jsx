@@ -8,24 +8,25 @@ export default function App() {
     <h1>Catatan Belanjaku 📝</h1>
     <form className="add-form">
       <h3>Hari ini belanja apa kita?</h3>
-      <div>
-        <select>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-        </select>
+      <div className="form-group">
+        <input className= "jumlah" type="number" min="1" placeholder="Jumlah" />
+        <select placeholder="Satuan">
+            <option value="kg">kg</option>
+            <option value="gram">gram</option>
+            <option value="liter">liter</option>
+            <option value="meter">meter</option>
+            <option value="pcs">biji</option>
+          </select>
         <input type="text" placeholder="nama barang..." />
       </div>
       <button>Tambah</button>
     </form>
     <div className="list">
-      
+    
       <ul>
         <li>
           <input type="checkbox" checked={true} />
-          <span style={{textDecoration: "line-through"}}>10 Kopi Kapal Api</span>
+          <span style={{textDecoration: "line-through"}}>10 pcs Kopi Kapal Api</span>
           <button>&times;</button>
         </li>
         <li>

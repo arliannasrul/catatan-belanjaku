@@ -29,14 +29,14 @@ body {
 h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  background-color: #283618;
+  background-color: #2D336B;
   color: white;
   font-size: 6rem;
   padding: 4rem 0 1rem;
 }
 
 .add-form {
-  background-color: #dda15e;
+  background-color: #A9B5DF;
   padding: 2.8rem 0;
   display: flex;
   flex-direction: column;
@@ -58,6 +58,12 @@ h1 {
   margin-right: 1rem;
 }
 
+.jumlah {
+  width: 20vh;
+  margin-right: 10px;
+
+}
+
 button,
 select,
 input {
@@ -71,7 +77,7 @@ input {
 }
 
 button {
-  background-color: #283618;
+  background-color: #2D336B;
   color: #fefae0;
   font-weight: bold;
 }
@@ -79,7 +85,7 @@ button {
 .list {
   background-image: url('/img/paper-bg.jpg');
   background-repeat: repeat-y;
-  background-size: 90%;
+  background-size: 100%;
   /* background-attachment: local; */
   color: #fefae0;
   padding: 2.3rem 0 0;
@@ -113,7 +119,7 @@ button {
 .list input[type='checkbox'] {
   height: 3rem;
   width: 3rem;
-  accent-color: #283618;
+  accent-color: #2D336B;
   margin-right: 1.3rem;
 }
 
@@ -131,7 +137,7 @@ button {
 }
 
 .actions {
-  background-color: #606c38;
+  background-color: #49509e;
   width: 100%;
   padding: 2rem 0;
   text-align: center;
@@ -145,7 +151,7 @@ button {
 }
 
 .stats {
-  background-color: #bc6c25;
+  background-color: #7886C7;
   color: white;
   text-align: center;
   padding: 3.2rem 0;
