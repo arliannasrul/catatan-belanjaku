@@ -188,4 +188,9 @@ button {
   }
 }
 
-
+@media (max-width: 720px) {
+  .app {
+    width: 100%;
+  
+  }
+}
