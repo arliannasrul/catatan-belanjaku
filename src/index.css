@@ -39,7 +39,7 @@ h1 {
   background-color: #A9B5DF;
   padding: 2.8rem 0;
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
@@ -59,9 +59,13 @@ h1 {
 }
 
 .jumlah {
-  width: 20vh;
+  width: 15vh;
   margin-right: 10px;
 
+}
+
+.satuan {
+  width: 14vh;
 }
 
 button,
@@ -180,6 +184,8 @@ button {
 }
 @media (max-width: 576px) {
   html {
-    font-size: 40%;
+    font-size: 30%;
   }
 }
+
+

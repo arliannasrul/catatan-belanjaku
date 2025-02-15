@@ -28,7 +28,7 @@ export default function Form({onAddItem}) {    // Form component merupakan kompo
       <h3>Hari ini belanja apa kita?</h3>
       <div className="form-group">
         <input className= "jumlah" type="number" min="1" placeholder="Jumlah" value={amount} onChange={(e) => setAmount(Number(e.target.value))}/>
-        <select placeholder="Satuan" value={unit} onChange={(e) => setUnit(e.target.value)}>
+        <select className="satuan" placeholder="Satuan" value={unit} onChange={(e) => setUnit(e.target.value)}>
             <option value="kg">kg</option>
             <option value="gram">gram</option>
             <option value="liter">liter</option>
