@@ -61,11 +61,16 @@ h1 {
 .jumlah {
   width: 15vh;
   margin-right: 10px;
+  margin-bottom: 10px;
 
 }
 
 .satuan {
   width: 14vh;
+}
+
+.nama-brg {
+  width: 15vh;
 }
 
 button,
@@ -200,6 +205,8 @@ button {
     width: 100%;
 
   }
+
+
 }
 
 @media (max-width: 720px) {
